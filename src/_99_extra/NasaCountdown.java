@@ -24,11 +24,11 @@ String s_Num = JOptionPane.showInputDialog("Where would you like to start counti
 		// 1. Print a countdown from 10 to 0 on the console
 	for (int i = num; i > -1; i--) {
 	System.out.println(i);
-	
+	}
 		// 4. Use the speak method to hear the countdown.
-		speak(""+i);
+		
 			// 6. Use the following code to make the program wait one second for each number: Thread.sleep(1000);
-	}	
+		
 		// 5. when the counting is done, speak "blastoff!"
 	}
 
