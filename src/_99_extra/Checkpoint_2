@@ -12,6 +12,15 @@
      n=ran.nextInt(10)  
       nu=ran.nextInt(10)  
        num=ran.nextInt(10)  
-            System.out.PrintIn()    
+            System.out.PrintIn(n + nu + num);   
            
+           Random ran = new Random();
+    int n = 0;
+    int nu = 1;
+    int num = 2;
+     n=ran.nextInt(9)  
+      nu=ran.nextInt(10)  
+       num=ran.nextInt(10)  
+            System.out.PrintIn(n + nu + num);   
+         
            
