@@ -1,0 +1,17 @@
+ printMessage();
+         
+ setName("monkey");
+            
+      getNumber();
+           
+           -----------------------------------------------------------------------
+       Random ran = new Random();
+    int n = 0;
+    int nu = 1;
+    int num = 2;
+     n=ran.nextInt(10)  
+      nu=ran.nextInt(10)  
+       num=ran.nextInt(10)  
+            System.out.PrintIn()    
+           
+           
