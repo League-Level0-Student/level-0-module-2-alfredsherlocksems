@@ -22,5 +22,22 @@
       nu=ran.nextInt(10)  
        num=ran.nextInt(10)  
             System.out.PrintIn(n + nu + num);   
-         
-           
+   ------------------------------------------------------------------------------
+ String flour = JOptionPane.showInputDialog("How many cups of flour do you have?");
+   
+   int flour1 = Integer.parseInt(flour);
+   if (2 > flour1) {
+   JOptionPane.showMessageDialog(null, "Go to the shop to buy some more!");
+  }
+    
+String biscuits = JOptionPane.showInputDialog("How many people are you going to give biscuits?");
+      int biscuits1 = Integer.parseInt(biscuits);     
+        if (30 < biscuits1) {
+    JOptionPane.showMessageDialog(null, "You're going to have to bake two batches of cookies!");
+    }
+    
+    String batches = JOptionPane.showInputDialog("How many batches of biscuits have you baked?");
+    int batches1 = Integer.parseInt(batches);
+    if (2 == batches1) {
+    JOptionPane.showMessageDialog(null, "You're so lucky to have so many friends!");
+    }
